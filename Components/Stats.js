@@ -19,7 +19,7 @@ function stats() {
             <Box
             textAlign='center'
             color='grey'
-            width='400px'
+            //width='400px'
             >Track how you links are performing across the web with our advanced statistics dashboard.</Box>
             
 
@@ -35,7 +35,7 @@ function stats() {
                 height='250px'
                 borderRadius = '10px'
                 p='2rem'
-                m= '1.5rem'
+                //m= '1.5rem'
                 >
                     <Box
                     fontWeight='bold'
@@ -56,7 +56,7 @@ function stats() {
                 height='250px'
                 borderRadius = '10px'
                 p='2rem'
-                m= '1.5rem'
+                //m= '1.5rem'
                 >
                     <Box
                     fontWeight='bold'
@@ -77,7 +77,7 @@ function stats() {
                 height='250px'
                 borderRadius = '10px'
                 p='2rem'
-                m= '1.5rem'
+                //m= '1.5rem'
                 >
                     <Box
                     fontWeight='bold'

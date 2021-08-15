@@ -13,9 +13,10 @@ const Input = styled.input(
     variants: {
       primary: {
         backgroundColor: "white",
-        padding: "1.2rem 2rem",
-        fontSize: "1rem",
+        padding: "1rem 1rem",
+        fontSize: "18px",
         "&::placeholder": {
+          fontWeight: 'bold',
           color: "#A4A4A4",
         },
       },

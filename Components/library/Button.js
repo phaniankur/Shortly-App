@@ -55,6 +55,7 @@ const Button = ({ startIcon, endIcon, children, variant, ...props }) => {
             font-weight: 'bold';
             letter-spacing: 2px;
             min-width: 150px;
+            min-height: 50px;
             color: white;
             &:hover {
               

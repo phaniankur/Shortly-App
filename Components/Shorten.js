@@ -41,7 +41,7 @@ function Shorten() {
         alignItems='center'
         p='0.5rem'
         //bg='#bfbfbf'
-        
+        m = {['1rem', '0rem']}
         >
                 <Image src='/Images/bg-shorten-desktop.svg'
                 display={['none', 'block']}
@@ -52,7 +52,8 @@ function Shorten() {
                 />
                 <Image src='/Images/bg-shorten-mobile.svg'
                 display={['block', 'none']}
-                alt="Bddg"
+                width = '100%'
+                alt="Bddg" 
                 bg='#3B3054'
                 borderRadius= '10px'
                 position='relative'
@@ -63,22 +64,26 @@ function Shorten() {
                 justifyContent='center'
                 alignItems='center'
                 position='absolute'
+                flexDirection = {['column', 'row']}
                 >
                     <Box
-                    width='100%'
-                    pr='1rem'
+                    width={['80%' ,'100%']}
+                    pr={['0rem' ,'1rem']}
+                    pb={['1rem' ,'0rem']}
                     >
                         <Input
+                        
                         variant="primary"
-                        placeholder='Searching'
+                        placeholder='Shorten a link here...'
                         />
                     </Box>
             
                     
                     <Button 
+                    display = 'none'
                     variant= 'secondary'
                     fontWeight='bold'
-                >Get Started</Button>
+                    >Get Started</Button>
                 </Box>
             </Box>
     )
