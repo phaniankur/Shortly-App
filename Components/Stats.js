@@ -4,16 +4,16 @@ import Box from './library/Box'
 function stats() {
     return (
         <Box
-        p= '1rem'
+        //p= '1rem'
         display= 'flex'
         justifyContent= 'center'
         alignItems = 'center'
-    flexDirection = 'column'
+        flexDirection = 'column'
         >
             <Box
             fontSize= '2rem'
             fontWeight ='bold'
-            mb='1rem'
+            //mb='1rem'
             >
                 Advanced Statistics</Box>
             <Box
@@ -31,10 +31,10 @@ function stats() {
             >
                 <Box
                 bg='#fff'
-                width='350px'
+                width={['250px', '350px']}
                 height='250px'
                 borderRadius = '10px'
-                p='2rem'
+                p={['0.5rem','2rem']}
                 //m= '1.5rem'
                 >
                     <Box
@@ -52,10 +52,10 @@ function stats() {
                 </Box>
                 <Box
                 bg='#fff'
-                width='350px'
+                width={['250px', '350px']}
                 height='250px'
                 borderRadius = '10px'
-                p='2rem'
+                p={['0.5rem','2rem']}
                 //m= '1.5rem'
                 >
                     <Box
@@ -73,10 +73,10 @@ function stats() {
                 </Box>
                 <Box
                 bg='#fff'
-                width='350px'
+                width={['250px', '350px']}
                 height='250px'
                 borderRadius = '10px'
-                p='2rem'
+                p={['0.5rem','2rem']}
                 //m= '1.5rem'
                 >
                     <Box

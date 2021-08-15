@@ -8,7 +8,7 @@ function Header() {
     
     return (
         <Box
-        //bg= {['red', 'blue']}
+            height='100%'
             width='100%'
             display='flex'
             justifyContent='space-between'
@@ -21,7 +21,6 @@ function Header() {
             display = {['flex', 'block']}
             flexDirection= 'column'
             alignItems = 'center'
-            
             //bg='red'
             >
                 <Box 

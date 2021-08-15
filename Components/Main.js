@@ -18,7 +18,7 @@ function Main() {
             
             >
                 <Shorten/>
-                <Stats/>
+                
                 <Boost/>
                 </Box>
             
