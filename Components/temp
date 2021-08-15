@@ -1,0 +1,18 @@
+<Box
+                width= '50rem'  
+                display='flex'
+                justifyContent='center'
+                alignItems='center'
+                >
+            
+                    <Input
+                        variant="primary"
+                        placeholder='Searching'
+                    />
+                    <Button fontSize='10rem'>My button</Button>
+                </Box>
+                <Box>
+                    <a target="_blank" href={shortLink}>Click Here</a>
+                    <br/>
+                    {shortLink}
+           </Box>
