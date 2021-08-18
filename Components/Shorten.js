@@ -4,13 +4,12 @@ import Box from './library/Box'
 import Input from './library/Input'
 import Button from './library/Button'
 import Image from './library/Image'
-import Bg from '../public/Images/bg-shorten-desktop.svg'
+
 function Shorten() {
 
     const [shortLink, setshortLink] = useState('')
     const [searchData, setsearchData] = useState('')
     const url = 'https://api.shrtco.de/v2/shorten'
-
 
     function handleChange(e) {
         setsearchData(e.target.value)
@@ -32,7 +31,6 @@ function Shorten() {
                 setshortLink(res.data.result.full_short_link)
             })
             .catch(err=> console.log(err))
-        
     }
     return (
         <Box 
@@ -42,7 +40,7 @@ function Shorten() {
         flexDirection= 'column'
         p='0.5rem'
         width= '100%'
-        //m = {['1rem', '0rem']}
+        m = {['1rem', '0rem']}
         >
             <Box
             display='flex'
@@ -68,7 +66,7 @@ function Shorten() {
                 />
                 
                 <Box
-                width= {['100%' ,'60rem' ]} 
+                width= {['100%' ,'100%','60rem' ]} 
                 display='flex'
                 justifyContent='center'
                 alignItems='center'
@@ -76,12 +74,11 @@ function Shorten() {
                 flexDirection = {['column', 'column','row']}
                 >
                     <Box
-                    width={['80%' ,'100%']}
+                    width={['80%' , '70%', '100%']}
                     pr={['0rem' ,'1rem']}
-                    pb={['1rem' ,'0rem']}
+                    pb={['1rem' ,'0.2rem']}
                     >
                         <Input
-                        
                         variant="primary"
                         placeholder='Shorten a link here...'
                         onChange= {handleChange}
